@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jon Church Portfolio",
+  "main": "js/scripts.js",
+  "scripts": {
+    "test": "failed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/churchjg/Portfolio.git"
+  },
+  "author": "Jon Church",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/churchjg/Portfolio/issues"
+  },
+  "homepage": "https://github.com/churchjg/Portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
+  }
+}
