@@ -80,11 +80,12 @@ header li {
 header a {
     display: block;
     color: #3498db;
-    padding: 10px
+    padding: 10px;
+    font-weight: bold;
 }
 
 header a:hover {
-    color: #217dbb;
+    color: #46a6e6;
     text-decoration: none;
     background: #eee;
     border-radius: 4px
@@ -105,7 +106,7 @@ header.sticky {
 }
 
 #menu.active {
-    display: block
+    display: block;
 }
 
 #mobile-menu-open {
@@ -119,7 +120,8 @@ header.sticky {
     z-index: 20;
     padding: 0 7px;
     border-radius: 4px;
-    background: #fff
+    background: #fff;
+    font-weight: bold;
 }
 
 #mobile-menu-close {
@@ -131,16 +133,19 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #3498db
+    color: #3498db;
+    font-weight: bold;
 }
 
 #mobile-menu-close span {
     font-size: 0.5em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #mobile-menu-close i {
-    vertical-align: middle
+    vertical-align: middle;
+    font-weight: bold;
 }
 
 footer {
@@ -240,7 +245,7 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #3498db
+    background: #153d57
 }
 
 .background-alt {
@@ -296,7 +301,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    background: rgba(22, 63, 90, 0.8);
     z-index: 1
 }
 
@@ -380,7 +385,7 @@ footer {
     height: 100%;
     width: 3px;
     background: #3498db;
-    z-index: 0
+    z-index: 0;
 }
 
 #experience-timeline:after {
@@ -427,7 +432,7 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
+    /* vertical-align: top; */
     margin-bottom: 30px
 }
 
@@ -594,7 +599,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #3498db;
+    background: rgba(22, 63, 90, 0.8);
     text-align: center
 }
 
@@ -617,7 +622,7 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #1d6fa5;
+    background: rgba(22, 63, 90, 0.8);
     color: #fff;
     transition: .5s ease all
 }
@@ -647,7 +652,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    background: #16527a
+    background: rgba(41, 94, 129, 0.8);
 }
 
 #contact-form textarea {
