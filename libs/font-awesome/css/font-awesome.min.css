@@ -1378,6 +1378,13 @@
 .fa-html5:before {
     content: "\f13b"
 }
+.fa-react:before {
+    content: "\f41b"
+}
+
+.fa-python::before {
+    content: "\f3e2";
+  }
 
 .fa-css3:before {
     content: "\f13c"
@@ -2002,6 +2009,7 @@
 .fa-send:before,
 .fa-paper-plane:before {
     content: "\f1d8"
+    
 }
 
 .fa-send-o:before,

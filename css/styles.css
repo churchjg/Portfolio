@@ -13,6 +13,7 @@ body.active {
 }
 
 
+
 .no-js #experience-timeline > div {
   background: #fff;
   padding: 10px;
@@ -90,9 +91,9 @@ header a {
 }
 
 header a:hover {
-  color: #46a6e6;
+  color: #01ce78;
   text-decoration: none;
-  background: #eee;
+  background: #ffffff;
   border-radius: 4px;
 }
 
@@ -114,6 +115,12 @@ p {
   font-size: 20px;
   line-height: 1.75em;
   font-weight: 900px;
+}
+
+a:hover {
+  color:#01ce78;
+  font-size: 25px;
+  text-decoration: none;
 }
 
 #menu.active {
@@ -213,7 +220,7 @@ footer {
 }
 
 .social a:hover {
-  color: #3498db;
+  color: #01ce78
 }
 
 .btn-rounded-white {
@@ -226,7 +233,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-  color: #3498db;
+  color: #01ce78;
   background: #fff;
   text-decoration: none;
 }
@@ -602,20 +609,25 @@ footer {
   display: block;
   margin: 0 auto;
   padding: 0;
-  max-width: 800px;
+  max-width: 150vh;
 }
 
 #skills li {
   display: inline-block;
-  margin: 7px;
+  margin: 25px;
   padding: 5px 10px;
-  color: #374054;
-  background: #e4e4ea;
+  color: #01ce78;
+  /*background: #e4e4ea; */
   list-style: none;
   cursor: default;
   font-size: 1.2em;
 }
 
+.iconify {
+  width: 100px;
+  height: 100px;
+  color: #01ce78;
+}
 #contact {
   padding: 50px 15px;
   background: rgba(22, 63, 90, 0.8);
@@ -694,6 +706,8 @@ footer {
 
 #contact-form button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: #01ce78;
+  font-size: 20px;
 }
 
 .optional-section {
@@ -819,6 +833,7 @@ footer {
   }
   #lead-content a {
     padding: 10px 20px;
+    
   }
   #lead-down {
     display: none;
