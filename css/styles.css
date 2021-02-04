@@ -628,6 +628,11 @@ footer {
   height: 100px;
   color: #01ce78;
 }
+.iconify1 {
+  width: 80px;
+  height: 80px;
+  color: #01ce78;
+}
 #contact {
   padding: 50px 15px;
   background: rgba(22, 63, 90, 0.8);
