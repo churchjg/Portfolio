@@ -628,11 +628,7 @@ footer {
   height: 100px;
   color: #01ce78;
 }
-.iconify1 {
-  width: 80px;
-  height: 80px;
-  color: #01ce78;
-}
+
 #contact {
   padding: 50px 15px;
   background: rgba(22, 63, 90, 0.8);
@@ -876,5 +872,14 @@ footer {
     font-size: 0.9em;
     padding: 5px 10px;
   }
-  
+  #skills li {
+    display: inline-block;
+    margin: 25px;
+    padding: 5px 10px;
+    color: #01ce78;
+    /*background: #e4e4ea; */
+    list-style: none;
+    cursor: default;
+    font-size: 1em;
+  }
 }
